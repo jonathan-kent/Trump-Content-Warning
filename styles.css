@@ -1,0 +1,154 @@
+#trumpCountText{
+  padding-top: 15px;
+  float: right;
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+#trumpCountImage{
+  margin-left: 10px;
+  max-width: 50px;
+}
+
+/* default style */
+#trumpCountPopup{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: #dedede;
+  border-radius: 8px;
+  z-index: 99;
+}
+#trumpCountPopup::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-top-color: #dedede;
+	border-bottom: 0;
+	margin-left: -6px;
+	margin-bottom: -6px;
+}
+
+/* left style */
+#trumpCountPopupLeft{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: #dedede;
+  border-radius: 8px;
+  z-index: 99;
+}
+
+#trumpCountPopupLeft::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-top-color: #dedede;
+	border-bottom: 0;
+	margin-left: -6px;
+	margin-bottom: -6px;
+}
+
+/* right style */
+#trumpCountPopupRight{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: #dedede;
+  border-radius: 8px;
+  z-index: 99;
+}
+
+#trumpCountPopupRight::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-top-color: #dedede;
+	border-bottom: 0;
+	margin-left: -6px;
+	margin-bottom: -6px;
+}
+
+/* down style */
+#trumpCountPopupDown{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: #dedede;
+  border-radius: 8px;
+  z-index: 99;
+}
+
+#trumpCountPopupDown::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-bottom-color: #dedede;
+	border-top: 0;
+	margin-left: -6px;
+	margin-top: -6px;
+}
+
+/* down left style */
+#trumpCountPopupDownLeft{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: #dedede;
+  border-radius: 8px;
+  z-index: 99;
+}
+
+#trumpCountPopupDownLeft::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-bottom-color: #dedede;
+	border-top: 0;
+	margin-left: -6px;
+	margin-top: -6px;
+}
+
+/* down right style */
+#trumpCountPopupDownRight{
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: #dedede;
+  border-radius: 8px;
+  z-index: 99;
+}
+
+#trumpCountPopupDownRight::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 10%;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-bottom-color: #dedede;
+  border-right: 0;
+	margin-left: -6px;
+	margin-top: -6px;
+}
